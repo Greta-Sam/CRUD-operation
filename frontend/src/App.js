@@ -1,4 +1,3 @@
-import './App.css';
 import Audiences from './components/Audiences';
 import Footer from './components/Footer';
 import Header from './components/Header';
