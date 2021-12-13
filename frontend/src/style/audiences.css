@@ -1,0 +1,98 @@
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 100px;
+  }
+  .container-title {
+      text-align: center;
+      padding: 20px;
+  }
+  h2 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 0.5em;
+    
+  }
+  
+  .responsive-table li {
+      border-radius: 3px;
+      padding: 25px 30px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+  }
+    .table-header {
+      background-color: #5b9397;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      font-weight: 550;
+    }
+    .table-row {
+      background-color: #ffffff;
+      box-shadow: 0px 0px 9px 0px rgb(124, 190, 192, 0.2);
+    }
+    .col-1 {
+      flex-basis: 15%;
+    }
+    .col-2 {
+      flex-basis: 15%;
+    }
+    .col-3 {
+      flex-basis: 30%;
+    }
+    .col-4 {
+      flex-basis: 20%;
+    }
+    .col-5 {
+        flex-basis: 10%;
+      }
+    .col-6 {
+        flex-basis: 10%;
+    }
+    .col-5 a, .col-6 button {
+      text-decoration: none;
+      border: none;
+      background-color: #fff;
+      color: #000;
+      font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+      font-size: 16px;
+      cursor: pointer;
+      padding: 3px 10px;
+      background-color: rgb(124, 190, 192, 0.8);
+      color: #fff;
+      border-radius: 10px;
+    }
+    .col-5 a:hover, .col-6 button:hover {
+      background-color: darkcyan;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .table-header {
+        background-color: #5b9397;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        font-weight: 550;
+      }
+      .col-3 {
+        display: none;
+      }
+      .col-1 {
+        flex-basis: 10%;
+      }
+      .col-2 {
+        flex-basis: 20%;
+      }
+      .table-header {
+        display: flex;
+        align-items: center;
+      }
+      }
+    
+  
